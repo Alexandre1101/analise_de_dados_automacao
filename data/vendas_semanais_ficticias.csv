@@ -1,0 +1,201 @@
+date,product,category,quantity,price,sales_rep,region,payment_method
+2026-05-23,Feijão 1kg,Alimentos básicos,1.0,,Eduarda,Norte,Pix
+2026-05-18,Arroz 5kg,Alimentos básicos,1.0,8.5,Eduarda,Oeste,Cartão crédito
+2026-05-21,Café 500g,Bebidas,1.0,8.5,Carla,Norte,Dinheiro
+2026-05-21,Feijão 1kg,Alimentos básicos,3.0,12.9,Eduarda,Norte,Pix
+2026-05-18,Café 500g,Bebidas,,22.9,Ana,Norte,Cartão crédito
+2026-05-24,Café 500g,Bebidas,1.0,8.5,Carla,Sul,Cartão débito
+2026-05-20,Açúcar 1kg,Alimentos básicos,,12.9,Bruno,Centro,Cartão crédito
+2026-05-19,Biscoito,Snacks,4.0,12.9,Carla,Norte,Cartão crédito
+2026-05-24,Arroz 5kg,Alimentos básicos,3.0,15.0,Carla,Sul,Pix
+2026-05-21,Biscoito,Snacks,2.0,12.9,Eduarda,Oeste,Pix
+2026-05-20,Açúcar 1kg,Alimentos básicos,2.0,22.9,Bruno,Sul,Pix
+2026-05-22,Feijão 1kg,Alimentos básicos,4.0,15.0,Eduarda,Norte,Dinheiro
+2026-05-23,Café 500g,Bebidas,,12.9,Carla,Centro,Cartão crédito
+2026-05-22,Feijão 1kg,Alimentos básicos,,12.9,Carla,Sul,Dinheiro
+2026-05-22,Macarrão,Massas,4.0,5.99,Carla,Sul,Dinheiro
+2026-05-19,Feijão 1kg,Alimentos básicos,1.0,,Bruno,Sul,Pix
+2026-05-22,Óleo de soja,Óleos,3.0,22.9,Eduarda,Sul,Cartão débito
+2026-05-21,Macarrão,Massas,4.0,22.9,Ana,Centro,Cartão crédito
+2026-05-22,Açúcar 1kg,Alimentos básicos,1.0,5.99,Ana,Leste,Dinheiro
+2026-05-22,Açúcar 1kg,Alimentos básicos,3.0,,Eduarda,Centro,Pix
+2026-05-19,Biscoito,Snacks,4.0,8.5,Diego,Oeste,Dinheiro
+2026-05-23,Feijão 1kg,Alimentos básicos,1.0,15.0,Bruno,Sul,Pix
+2026-05-19,Leite,Laticínios,2.0,12.9,Eduarda,Norte,Dinheiro
+2026-05-23,Arroz 5kg,Alimentos básicos,1.0,8.5,Diego,Norte,Cartão crédito
+2026-05-21,Arroz 5kg,Alimentos básicos,4.0,12.9,Eduarda,Oeste,Cartão crédito
+2026-05-19,Café 500g,Bebidas,2.0,5.99,Ana,Norte,Pix
+2026-05-22,Óleo de soja,Óleos,1.0,22.9,Bruno,Oeste,Dinheiro
+2026-05-22,,Alimentos básicos,5.0,22.9,Eduarda,Centro,Cartão débito
+2026-05-20,Açúcar 1kg,Alimentos básicos,,,Carla,Oeste,Cartão débito
+2026-05-24,Feijão 1kg,Alimentos básicos,1.0,15.0,Eduarda,Sul,Cartão débito
+2026-05-19,Macarrão,Massas,1.0,8.5,Carla,Centro,Dinheiro
+2026-05-23,Café 500g,Bebidas,,5.99,Ana,Centro,Cartão crédito
+2026-05-20,Café 500g,Bebidas,5.0,8.5,Carla,Centro,Pix
+2026-05-20,Arroz 5kg,Alimentos básicos,1.0,,,Sul,Cartão débito
+2026-05-19,Biscoito,,5.0,,Bruno,Centro,Dinheiro
+2026-05-24,Macarrão,Massas,5.0,22.9,Ana,Leste,Cartão crédito
+2026-05-23,Açúcar 1kg,Alimentos básicos,,5.99,Eduarda,Sul,Cartão crédito
+2026-05-24,,Óleos,2.0,15.0,Diego,Sul,Cartão débito
+2026-05-19,Feijão 1kg,Alimentos básicos,4.0,5.99,Diego,Leste,Cartão débito
+2026-05-24,Açúcar 1kg,Alimentos básicos,2.0,5.99,Ana,Leste,Cartão débito
+2026-05-23,Leite,,,22.9,Carla,Sul,Cartão débito
+2026-05-18,Feijão 1kg,Alimentos básicos,5.0,15.0,Eduarda,Norte,Pix
+2026-05-22,Açúcar 1kg,,3.0,5.99,Eduarda,Sul,Cartão débito
+2026-05-21,Feijão 1kg,Alimentos básicos,,12.9,Carla,Centro,Cartão débito
+2026-05-23,Leite,Laticínios,3.0,15.0,Diego,Sul,Cartão débito
+2026-05-21,Arroz 5kg,Alimentos básicos,3.0,12.9,Carla,Oeste,Pix
+2026-05-21,Açúcar 1kg,Alimentos básicos,5.0,15.0,Ana,Leste,Cartão débito
+2026-05-18,Açúcar 1kg,Alimentos básicos,,12.9,,Sul,Pix
+2026-05-22,Feijão 1kg,Alimentos básicos,4.0,15.0,Diego,Oeste,Pix
+2026-05-19,,Óleos,,,Ana,Oeste,Cartão crédito
+2026-05-19,Biscoito,Snacks,1.0,22.9,Diego,Centro,Cartão débito
+2026-05-24,Biscoito,Snacks,5.0,,Diego,Sul,Pix
+2026-05-21,Café 500g,Bebidas,2.0,,Bruno,Leste,Pix
+2026-05-18,Café 500g,Bebidas,2.0,12.9,Bruno,Sul,Pix
+2026-05-23,Óleo de soja,Óleos,,8.5,Diego,Norte,Cartão crédito
+2026-05-24,Leite,,4.0,22.9,Eduarda,Oeste,Pix
+2026-05-18,Macarrão,Massas,3.0,15.0,Eduarda,Centro,Cartão crédito
+2026-05-21,Açúcar 1kg,Alimentos básicos,3.0,15.0,Diego,Sul,Pix
+2026-05-19,Arroz 5kg,,4.0,22.9,Bruno,Oeste,Cartão crédito
+2026-05-18,Café 500g,Bebidas,4.0,12.9,Diego,Leste,Pix
+2026-05-20,Feijão 1kg,Alimentos básicos,4.0,5.99,Bruno,Norte,Dinheiro
+2026-05-24,Arroz 5kg,Alimentos básicos,2.0,8.5,Diego,Norte,Cartão crédito
+2026-05-21,Café 500g,Bebidas,3.0,8.5,Bruno,Leste,Dinheiro
+2026-05-22,Arroz 5kg,Alimentos básicos,3.0,22.9,Bruno,Norte,Cartão crédito
+2026-05-18,Café 500g,Bebidas,,22.9,Ana,Leste,Pix
+2026-05-23,Macarrão,,1.0,22.9,Diego,Norte,Pix
+2026-05-20,Biscoito,Snacks,,8.5,Carla,Centro,Pix
+2026-05-21,Leite,Laticínios,,22.9,Ana,Leste,Pix
+2026-05-19,Biscoito,Snacks,5.0,22.9,Carla,Sul,Pix
+2026-05-19,Macarrão,Massas,3.0,12.9,Eduarda,Norte,Cartão crédito
+2026-05-18,Açúcar 1kg,Alimentos básicos,,15.0,Diego,Oeste,Dinheiro
+2026-05-18,Café 500g,Bebidas,2.0,15.0,Diego,Centro,Cartão débito
+2026-05-21,Macarrão,Massas,3.0,,Bruno,Leste,Dinheiro
+2026-05-23,Óleo de soja,Óleos,2.0,8.5,Eduarda,Centro,Cartão débito
+2026-05-18,Açúcar 1kg,Alimentos básicos,3.0,8.5,Bruno,Leste,Dinheiro
+2026-05-18,Café 500g,Bebidas,,8.5,Ana,Centro,Cartão débito
+2026-05-21,Biscoito,Snacks,4.0,12.9,Diego,Norte,Dinheiro
+2026-05-21,Biscoito,Snacks,1.0,22.9,Eduarda,Leste,Dinheiro
+2026-05-19,Feijão 1kg,Alimentos básicos,5.0,15.0,Eduarda,Oeste,Pix
+2026-05-21,Café 500g,Bebidas,5.0,15.0,Ana,Sul,Cartão crédito
+2026-05-20,Feijão 1kg,Alimentos básicos,2.0,8.5,,Oeste,Pix
+2026-05-20,Arroz 5kg,Alimentos básicos,2.0,12.9,Bruno,Leste,Cartão crédito
+2026-05-21,Feijão 1kg,Alimentos básicos,5.0,8.5,Ana,Norte,Cartão crédito
+2026-05-24,Café 500g,Bebidas,5.0,,Diego,Leste,Pix
+2026-05-20,Biscoito,Snacks,4.0,5.99,Eduarda,Leste,Dinheiro
+2026-05-18,Açúcar 1kg,,,22.9,Carla,Centro,Dinheiro
+2026-05-24,Óleo de soja,Óleos,4.0,22.9,Eduarda,Oeste,Pix
+2026-05-18,Biscoito,Snacks,3.0,15.0,Carla,Oeste,Pix
+2026-05-20,Leite,Laticínios,5.0,5.99,Diego,Centro,Dinheiro
+2026-05-23,Biscoito,Snacks,4.0,5.99,Diego,Norte,Cartão crédito
+2026-05-20,Óleo de soja,Óleos,3.0,15.0,,Centro,Cartão crédito
+2026-05-23,,Óleos,3.0,22.9,Ana,Oeste,Dinheiro
+2026-05-23,Óleo de soja,Óleos,4.0,,Diego,Oeste,Cartão crédito
+2026-05-21,Óleo de soja,Óleos,4.0,8.5,Ana,Leste,Pix
+2026-05-20,Café 500g,Bebidas,1.0,12.9,Diego,Sul,Pix
+2026-05-22,Biscoito,Snacks,3.0,12.9,Carla,Sul,Cartão crédito
+2026-05-22,,Laticínios,2.0,15.0,Diego,Oeste,Cartão crédito
+2026-05-21,Arroz 5kg,Alimentos básicos,2.0,22.9,Diego,Norte,Pix
+2026-05-18,Óleo de soja,Óleos,4.0,,Carla,Leste,Pix
+2026-05-23,Feijão 1kg,Alimentos básicos,3.0,,Diego,Centro,Dinheiro
+2026-05-22,Feijão 1kg,Alimentos básicos,2.0,,Ana,Oeste,Dinheiro
+2026-05-24,Feijão 1kg,Alimentos básicos,4.0,8.5,,Norte,Cartão débito
+2026-05-20,Macarrão,Massas,4.0,8.5,Bruno,Sul,Cartão crédito
+2026-05-18,Leite,Laticínios,5.0,,Diego,Leste,Pix
+2026-05-20,Arroz 5kg,Alimentos básicos,4.0,12.9,Carla,Centro,Cartão débito
+2026-05-23,Leite,Laticínios,,12.9,Diego,Norte,Cartão crédito
+2026-05-21,Macarrão,Massas,5.0,12.9,Diego,Leste,Dinheiro
+2026-05-22,Arroz 5kg,Alimentos básicos,5.0,,Bruno,Centro,Cartão débito
+2026-05-19,Açúcar 1kg,Alimentos básicos,5.0,12.9,Bruno,Norte,Dinheiro
+2026-05-20,Biscoito,Snacks,1.0,22.9,Carla,Oeste,Cartão crédito
+2026-05-19,Óleo de soja,Óleos,5.0,12.9,Carla,Oeste,Cartão débito
+2026-05-23,Macarrão,Massas,1.0,15.0,Diego,Centro,Cartão débito
+2026-05-18,Leite,Laticínios,1.0,12.9,Carla,Centro,Pix
+2026-05-24,Macarrão,,1.0,,Eduarda,Leste,Cartão crédito
+2026-05-23,Feijão 1kg,Alimentos básicos,,15.0,Bruno,Norte,Dinheiro
+2026-05-20,Biscoito,Snacks,1.0,5.99,Carla,Centro,Pix
+2026-05-22,Óleo de soja,Óleos,4.0,,Carla,Norte,Cartão débito
+2026-05-19,Biscoito,Snacks,4.0,8.5,Eduarda,Leste,Dinheiro
+2026-05-21,Café 500g,Bebidas,2.0,5.99,Bruno,Centro,Dinheiro
+2026-05-18,Macarrão,Massas,2.0,8.5,Eduarda,Sul,Cartão crédito
+2026-05-24,Açúcar 1kg,Alimentos básicos,3.0,8.5,Bruno,Sul,Cartão débito
+2026-05-24,Óleo de soja,Óleos,1.0,,Bruno,Centro,Cartão débito
+2026-05-18,Óleo de soja,Óleos,3.0,5.99,Ana,Oeste,Pix
+2026-05-24,Macarrão,Massas,5.0,22.9,Ana,Centro,Cartão débito
+2026-05-21,Arroz 5kg,Alimentos básicos,1.0,15.0,Diego,Norte,Dinheiro
+2026-05-20,Óleo de soja,Óleos,1.0,8.5,Carla,Oeste,Cartão débito
+2026-05-21,Leite,Laticínios,1.0,,Eduarda,Sul,Pix
+2026-05-21,Açúcar 1kg,Alimentos básicos,4.0,12.9,Carla,Oeste,Cartão débito
+2026-05-23,Café 500g,Bebidas,3.0,8.5,Ana,Norte,Pix
+2026-05-18,Macarrão,Massas,2.0,22.9,Ana,Oeste,Cartão débito
+2026-05-24,Leite,Laticínios,,5.99,Eduarda,Centro,Cartão crédito
+2026-05-19,Biscoito,Snacks,2.0,5.99,Carla,Centro,Cartão crédito
+2026-05-24,Leite,Laticínios,5.0,22.9,,Leste,Dinheiro
+2026-05-19,Café 500g,Bebidas,,12.9,Bruno,Centro,Pix
+2026-05-18,Óleo de soja,Óleos,,,Diego,Oeste,Pix
+2026-05-20,Óleo de soja,Óleos,3.0,12.9,Ana,Norte,Cartão crédito
+2026-05-19,Arroz 5kg,Alimentos básicos,,5.99,Diego,Oeste,Cartão débito
+2026-05-19,Feijão 1kg,Alimentos básicos,3.0,15.0,Eduarda,Leste,Dinheiro
+2026-05-19,,Laticínios,5.0,5.99,Bruno,Leste,Cartão débito
+2026-05-20,Feijão 1kg,Alimentos básicos,1.0,15.0,Bruno,Centro,Cartão débito
+2026-05-18,Leite,Laticínios,,5.99,Carla,Centro,Pix
+2026-05-22,Leite,Laticínios,,,,Leste,Cartão crédito
+2026-05-24,Biscoito,Snacks,,12.9,Eduarda,Oeste,Dinheiro
+2026-05-21,Café 500g,Bebidas,,12.9,Ana,Centro,Cartão crédito
+2026-05-24,Macarrão,Massas,3.0,,Ana,Sul,Cartão débito
+2026-05-19,Óleo de soja,Óleos,5.0,8.5,Diego,Oeste,Pix
+2026-05-23,Macarrão,Massas,,12.9,Carla,Leste,Dinheiro
+2026-05-20,Feijão 1kg,Alimentos básicos,3.0,15.0,Ana,Norte,Pix
+2026-05-21,Arroz 5kg,Alimentos básicos,4.0,22.9,Bruno,Norte,Pix
+2026-05-18,Macarrão,Massas,,5.99,Diego,Oeste,Cartão crédito
+2026-05-20,Macarrão,Massas,3.0,15.0,Carla,Norte,Cartão débito
+2026-05-18,Leite,Laticínios,3.0,12.9,Bruno,Leste,Dinheiro
+2026-05-22,Óleo de soja,Óleos,3.0,12.9,Eduarda,Norte,Cartão débito
+2026-05-22,Leite,Laticínios,,12.9,Eduarda,Norte,Pix
+2026-05-22,Macarrão,Massas,1.0,12.9,Diego,Sul,Cartão crédito
+2026-05-19,Óleo de soja,Óleos,1.0,12.9,Eduarda,Norte,Cartão débito
+2026-05-24,Óleo de soja,Óleos,5.0,15.0,Eduarda,Sul,Pix
+2026-05-18,Leite,Laticínios,3.0,,Diego,Sul,Cartão crédito
+2026-05-20,Biscoito,Snacks,2.0,12.9,Carla,Oeste,Pix
+2026-05-19,Açúcar 1kg,Alimentos básicos,5.0,8.5,Carla,Centro,Dinheiro
+2026-05-23,Feijão 1kg,Alimentos básicos,3.0,5.99,Bruno,Oeste,Dinheiro
+2026-05-19,Biscoito,Snacks,3.0,5.99,Diego,Norte,Cartão débito
+2026-05-19,Arroz 5kg,Alimentos básicos,3.0,5.99,Bruno,Norte,Cartão débito
+2026-05-24,Biscoito,Snacks,,8.5,Ana,Norte,Cartão débito
+2026-05-19,Óleo de soja,Óleos,5.0,,Bruno,Leste,Dinheiro
+2026-05-18,Açúcar 1kg,Alimentos básicos,4.0,,Diego,Centro,Dinheiro
+2026-05-23,Açúcar 1kg,,,8.5,Eduarda,Oeste,Cartão crédito
+2026-05-23,Feijão 1kg,Alimentos básicos,5.0,12.9,Eduarda,Centro,Dinheiro
+2026-05-21,Biscoito,Snacks,1.0,,Carla,Norte,Cartão débito
+2026-05-19,Feijão 1kg,Alimentos básicos,5.0,,Carla,Sul,Pix
+2026-05-23,Biscoito,Snacks,,8.5,Diego,Norte,Cartão débito
+2026-05-19,Arroz 5kg,Alimentos básicos,2.0,5.99,Eduarda,Oeste,Cartão débito
+2026-05-18,Açúcar 1kg,,3.0,12.9,Carla,Norte,Cartão débito
+2026-05-21,Leite,Laticínios,,15.0,Diego,Oeste,Cartão débito
+2026-05-24,Café 500g,Bebidas,1.0,,Bruno,Centro,Cartão débito
+2026-05-20,Feijão 1kg,Alimentos básicos,1.0,12.9,Diego,Sul,Pix
+2026-05-20,Biscoito,Snacks,1.0,,Carla,Norte,Dinheiro
+2026-05-23,Leite,Laticínios,3.0,22.9,Bruno,Centro,Pix
+2026-05-18,Óleo de soja,Óleos,1.0,8.5,Eduarda,Norte,Cartão crédito
+2026-05-23,Biscoito,Snacks,3.0,12.9,Carla,Oeste,Cartão débito
+2026-05-23,,Bebidas,2.0,5.99,Eduarda,Norte,Cartão débito
+2026-05-24,Café 500g,Bebidas,,15.0,Diego,Sul,Dinheiro
+2026-05-19,Feijão 1kg,Alimentos básicos,4.0,8.5,Carla,Leste,Dinheiro
+2026-05-22,Café 500g,Bebidas,3.0,8.5,Carla,Centro,Cartão crédito
+2026-05-18,Açúcar 1kg,,2.0,8.5,Carla,Oeste,Cartão crédito
+2026-05-22,Feijão 1kg,Alimentos básicos,1.0,12.9,Diego,Oeste,Dinheiro
+2026-05-19,Macarrão,Massas,,5.99,Eduarda,Centro,Cartão crédito
+2026-05-24,Óleo de soja,Óleos,4.0,22.9,Bruno,Leste,Cartão crédito
+2026-05-19,Macarrão,Massas,,8.5,Ana,Leste,Cartão crédito
+2026-05-23,Café 500g,Bebidas,2.0,,Bruno,Centro,Cartão crédito
+2026-05-19,Macarrão,,5.0,5.99,,Centro,Cartão débito
+2026-05-23,Açúcar 1kg,,5.0,15.0,Eduarda,Leste,Cartão débito
+2026-05-21,Açúcar 1kg,Alimentos básicos,,15.0,Diego,Oeste,Pix
+2026-05-21,Açúcar 1kg,Alimentos básicos,3.0,22.9,Carla,Oeste,Cartão crédito
+2026-05-24,Macarrão,Massas,5.0,22.9,Diego,Sul,Cartão crédito
+2026-05-18,Arroz 5kg,Alimentos básicos,3.0,15.0,Bruno,Leste,Cartão débito
+2026-05-19,Óleo de soja,Óleos,4.0,22.9,Ana,Oeste,Pix
+2026-05-19,,Alimentos básicos,5.0,12.9,Diego,Leste,Dinheiro
+2026-05-24,Feijão 1kg,Alimentos básicos,4.0,8.5,Carla,Norte,Pix
+2026-05-18,Açúcar 1kg,Alimentos básicos,3.0,22.9,Eduarda,Leste,Dinheiro
