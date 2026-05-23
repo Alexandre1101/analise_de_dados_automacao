@@ -1,10 +1,11 @@
 import pandas as pd
+from typing import Any
 
 def load_data(path: str) -> pd.DataFrame:
     df = pd.read_csv(path)
     return df
 
-def process_data(df: pd.DataFrame) -> pd.DataFrame:
+def process_data(df: pd.DataFrame) -> tuple[pd.DataFrame, dict[str, Any]]:
     # Encadeamos a remoção de nulos e duplicatas em um novo DataFrame
     df_processed = df.dropna().drop_duplicates().copy()
     
@@ -18,20 +19,14 @@ def process_data(df: pd.DataFrame) -> pd.DataFrame:
     regiao_que_mais_vendeu = df_processed.groupby("region")["total_worth"].sum().sort_values(ascending=False)
     sales_rep_que_mais_vendeu = df_processed.groupby("sales_rep")["total_worth"].sum().sort_values(ascending=False)
 
-    return {
-    "total_vendido": total_vendido_no_periodo,
-    "produto_mais_vendido": produto_mais_vendido_por_receita,
-    "categoria_top": categoria_que_vendeu_mais,
-    "regiao_top": regiao_que_mais_vendeu,
-    "vendedor_top": sales_rep_que_mais_vendeu
-}
-'''  
-    print(f"Categoria que mais vendeu: {categoria_que_vendeu_mais.index[0]}")
-    print(f"Região que mais vendeu: {regiao_que_mais_vendeu.index[0]}")
-    print(f"Produto mais vendido por receita: {produto_mais_vendido_por_receita.index[0]}")
-    print(f"Total vendido no período: R${total_vendido_no_periodo:.2f}")
-    print(f"Vendedor que mais vendeu: {sales_rep_que_mais_vendeu.index[0]}")
-    
-    print(df_processed)
-'''  
+    metrics = {
+        "total_vendido": total_vendido_no_periodo,
+        "produto_top": produto_mais_vendido_por_receita,
+        "categoria_top": categoria_que_vendeu_mais,
+        "regiao_top": regiao_que_mais_vendeu,
+        "vendedor_top": sales_rep_que_mais_vendeu
+    }
+    return df_processed, metrics
+
+
     
