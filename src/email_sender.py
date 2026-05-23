@@ -3,8 +3,8 @@ import os
 from email.message import EmailMessage
 
 def send_email(to, subject, body, attachment=None):
-    email_user = "[COLOQUE O QUE VAI ENVIAR EMAIL AQUI]"
-    email_pass = "[COLOQUE A SENHA DO APP DO EMAIL QUE VAI ENVIAR AQUI]]"
+    email_user = os.getenv("EMAIL_USER")
+    email_pass = os.getenv("EMAIL_PASS")
 
     msg = EmailMessage()
     msg["From"] = email_user

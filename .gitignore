@@ -1,22 +1,11 @@
-# Python-generated files
+# Python
 __pycache__/
-*.py[oc]
-*.pyo
-*.pyd
-
-build/
-dist/
-wheels/
-*.egg-info
-
-# Virtual environments
 .venv/
+*.py[cod]
 
-# Environment variables
+# Ambiente
 .env
 
-# Local Python version (uv / pyenv)
-.python-version
-
-# IDE
-.vscode/
+# Saídas (Resultados do script)
+output/
+*.xlsx

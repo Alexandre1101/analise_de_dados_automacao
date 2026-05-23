@@ -1,3 +1,4 @@
+import os
 from pathlib import Path
 from data_processing import load_data, process_data
 from report import generate_report
@@ -12,10 +13,10 @@ def main():
     df_clean, metrics = process_data(df)
     total_vendido_no_periodo= metrics["total_vendido"]
 
-    report_path = generate_report(df, metrics)
+    report_path = generate_report(df_clean, metrics)
 
     send_email(
-        to="[COLOQUE O EMAIL QUE VAI RECEBER AQUI]",
+        to=os.getenv("EMAIL_RECEIVER"),
         subject="Relatório de Vendas",
         body=f"Segue o relatório automático em anexo, total vendido = R${total_vendido_no_periodo:.2f}",
         attachment=report_path
