@@ -17,13 +17,30 @@ def main():
     df = load_data(str(file_path))  
     df_clean, metrics = process_data(df)
     total_vendido_no_periodo= metrics["total_vendido"]
+    produto_que_mais_vendeu = df_clean.groupby("product")["total_worth"].sum().sort_values(ascending=False).index[0]
+    categoria_que_mais_vendeu = df_clean.groupby("category")["total_worth"].sum().sort_values(ascending=False).index[0]
+    regiao_que_mais_vendeu = df_clean.groupby("region")["total_worth"].sum().sort_values(ascending=False).index[0]
+    vendedor_que_mais_vendeu = df_clean.groupby("sales_rep")["total_worth"].sum().sort_values(ascending=False).index[0]
+
+
 
     report_path = generate_report(df_clean, metrics)
 
     send_email(
         to=os.getenv("EMAIL_RECEIVER"),
         subject="Relatório de Vendas",
-        body=f"Segue o relatório automático em anexo, total vendido = R${total_vendido_no_periodo:.2f}",
+        body=f"""
+Segue o relatório automático em anexo.
+
+Resumo do período:
+- Total vendido: R$ {total_vendido_no_periodo:,.2f}
+- Produto com maior receita: {produto_que_mais_vendeu}
+- Categoria líder: {categoria_que_mais_vendeu}
+- Região com maior faturamento: {regiao_que_mais_vendeu}
+- Melhor vendedor: {vendedor_que_mais_vendeu}
+
+Relatório anexado automaticamente.
+""",
         attachment=report_path
     )
 
