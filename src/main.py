@@ -1,5 +1,6 @@
 import os
 from pathlib import Path
+from dotenv import load_dotenv
 from data_processing import load_data, process_data
 from report import generate_report
 from email_sender import send_email
@@ -7,6 +8,10 @@ from email_sender import send_email
 def main():
     # Obtém o caminho da pasta onde o main.py está (src) e sobe um nível para a raiz do projeto
     base_path = Path(__file__).parent.parent
+
+    # Carrega as variáveis do arquivo .env localizado na raiz
+    load_dotenv(dotenv_path=base_path / ".env")
+
     file_path = base_path / "data" / "vendas_semanais_ficticias.csv"
 
     df = load_data(str(file_path))  

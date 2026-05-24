@@ -6,6 +6,9 @@ def send_email(to, subject, body, attachment=None):
     email_user = os.getenv("EMAIL_USER")
     email_pass = os.getenv("EMAIL_PASS")
 
+    if not email_user or not email_pass:
+        raise ValueError("Erro: Credenciais de e-mail (EMAIL_USER/EMAIL_PASS) não encontradas no ambiente.")
+
     msg = EmailMessage()
     msg["From"] = email_user
     msg["To"] = to
