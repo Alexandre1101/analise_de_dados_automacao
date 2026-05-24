@@ -16,18 +16,22 @@ def send_email(to, subject, body, attachment=None):
 
     msg.set_content(body)
 
-    # 📎 Anexo (se existir)
+    # 📎 Anexos (se existirem)
     if attachment:
-        with open(attachment, "rb") as f:
-            file_data = f.read()
-            file_name = os.path.basename(attachment)
+        # Se for um único caminho (string ou Path), transforma em lista para iterar uniformemente
+        files = [attachment] if isinstance(attachment, (str, os.PathLike)) else attachment
 
-        msg.add_attachment(
-            file_data,
-            maintype="application",
-            subtype="octet-stream",
-            filename=file_name
-        )
+        for file_path in files:
+            with open(file_path, "rb") as f:
+                file_data = f.read()
+                file_name = os.path.basename(file_path)
+
+            msg.add_attachment(
+                file_data,
+                maintype="application",
+                subtype="octet-stream",
+                filename=file_name
+            )
 
     # 📡 Enviar email via Gmail SMTP
     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:

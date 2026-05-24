@@ -1,6 +1,6 @@
 # 📊 Automação de Relatórios de Vendas
 
-Este projeto automatiza o fluxo de processamento de dados de vendas, geração de relatórios detalhados em Excel e envio automático por e-mail. É uma solução completa de BI (Business Intelligence) simplificada para monitoramento de performance semanal.
+Este projeto automatiza o fluxo de processamento de dados de vendas, geração de relatórios detalhados em Excel e PDF, e envio automático por e-mail. É uma solução completa de BI (Business Intelligence) simplificada para monitoramento de performance semanal.
 
 ## 🚀 Funcionalidades
 
@@ -8,6 +8,8 @@ Este projeto automatiza o fluxo de processamento de dados de vendas, geração d
 - **Análise de Métricas**: Cálculo automático de faturamento total, produtos mais vendidos, melhores categorias, regiões e performance de vendedores.
 - **Relatórios em Excel**: Geração de um arquivo `.xlsx` com múltiplas abas organizadas por métricas.
 - **Notificação Automática**: Envio do relatório gerado diretamente para o e-mail do gestor utilizando SMTP seguro.
+- **Relatórios em PDF Profissionais**: Geração de um relatório executivo em PDF, com layout limpo, tabelas formatadas e padrão monetário brasileiro (R$).
+- **Notificação Automática**: Envio dos relatórios gerados (Excel e PDF) diretamente para o e-mail do gestor utilizando SMTP seguro.
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -16,6 +18,7 @@ Este projeto automatiza o fluxo de processamento de dados de vendas, geração d
 - OpenPyXL para suporte a arquivos Excel.
 - Pathlib para gestão robusta de caminhos de arquivos.
 - Smtplib para integração com servidores de e-mail.
+- ReportLab para geração de documentos PDF de alta qualidade.
 
 ## 📋 Pré-requisitos
 

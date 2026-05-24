@@ -2,7 +2,7 @@ import os
 from pathlib import Path
 from dotenv import load_dotenv
 from data_processing import load_data, process_data
-from report import generate_report
+from report import generate_report, generate_pdf
 from email_sender import send_email
 
 def main():
@@ -21,10 +21,9 @@ def main():
     categoria_que_mais_vendeu = df_clean.groupby("category")["total_worth"].sum().sort_values(ascending=False).index[0]
     regiao_que_mais_vendeu = df_clean.groupby("region")["total_worth"].sum().sort_values(ascending=False).index[0]
     vendedor_que_mais_vendeu = df_clean.groupby("sales_rep")["total_worth"].sum().sort_values(ascending=False).index[0]
-
-
-
+    
     report_path = generate_report(df_clean, metrics)
+    pdf_path = generate_pdf(df_clean, metrics)
 
     send_email(
         to=os.getenv("EMAIL_RECEIVER"),
@@ -41,7 +40,8 @@ Resumo do período:
 
 Relatório anexado automaticamente.
 """,
-        attachment=report_path
+        attachment=[report_path, pdf_path]
+        
     )
 
 if __name__ == "__main__":
